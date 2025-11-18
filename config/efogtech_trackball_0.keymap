@@ -38,8 +38,8 @@
 				&ltm LAYER_EXTRAS MB4     &ltm LAYER_DEVICE MB5
 
 				// rotary encoders
-				&kp fin_kay_sx            &kp LC(TAB)
-				&kp fin_kay_sx            &kp LC(LS(TAB))
+                &fin_kay_sx               &kp LC(TAB)
+                &fin_kay_sx               &kp LC(LS(TAB))
 			>;
 		};
 
