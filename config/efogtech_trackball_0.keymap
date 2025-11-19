@@ -124,8 +124,6 @@
 		snipe {
 			layers = <LAYER_SNIPE>;
 			input-processors = <&zip_xy_scaler SNIPE_MULTIPLIER SNIPE_DIVISOR>;
-                               <&zip_xy_scaler SCROLL_MULTIPLIER SCROLL_DIVISOR>, <&zip_axis_clamper>,
-							   <&zip_xy_to_scroll_mapper>, <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>;
 		};
 	};
 
