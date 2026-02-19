@@ -39,5 +39,8 @@ manifest:
     - name: zmk-acceleration-curves
       remote: efogdev
       revision: "d8b272a"
+    - name: zmk-input-processor-rotate-plane
+      remote: efogdev
+      revision: "c2e2947"
   self:
     path: config
